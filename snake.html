@@ -16,8 +16,11 @@
             let stage = document.getElementById('stage');
             let context = stage.getContext('2d'); //tipo 2d
 
+            //espera uma tecla ser pressionada
+            document.addEventListener("keydown", keyPush);
+
             //Chama a função do jogo
-            setInterval(game, 60);
+            setInterval(game, 80);
 
 
             const velocity = 1;
@@ -32,10 +35,9 @@
             let apple_Y = 15; //posição inicial da maça
 
             let trail = []; //tamanho da calda
-            trail = 5;
+            let tail = 5;
 
 
-            //
             function game(){
                 position_X += velocity_X;
                 position_Y += velocity_Y;
@@ -70,15 +72,19 @@
                 for (let i = 0; i < trail.length; i++) {
                     context.fillRect(trail[i].x * lenght_piece, 
                     trail[i].y * lenght_piece, 
-                    lenght_piece, lenght_piece); 
+                    lenght_piece -1, lenght_piece -1); 
 
                     //verifica se cabeça da cobra bateu na propria cauda, tem que dar game over
-                    if(trail[i].x == position_X && trail[i] == position_Y){
-                        velocity_X = velocity_Y = 0;
+                    if(trail[i].x == position_X && trail[i].y == position_Y){
+                        velocity_X = 0;
+                        velocity_Y = 0;
+                        tail = 5;
                     }
+                }
 
+                
                     //salva as posições atuais, por que não bateu na cauda
-                    trail.push({ x:position_X, y: position_Y })
+                    trail.push({ x:position_X, y:position_Y })
 
                     //testa se o tamanho do rastro ta maior que a calda
                     while(trail.length > tail){
@@ -90,14 +96,35 @@
                         tail++;
 
                         //posiciona a maça para outro lugar do tabuleiro
-                        apple_X = Math.floor(Math.random()) * number_pieces;
-                        apple_Y = Math.floor(Math.random()) * number_pieces;
+                        apple_X = Math.floor(Math.random() * number_pieces);
+                        apple_Y = Math.floor(Math.random() * number_pieces);
                     }
-                }
 
             } 
 
-            
+            function keyPush(event){
+                
+                switch (event.keyCode) {
+                    case 37: //Left
+                        velocity_X  = -velocity;
+                        velocity_Y = 0;
+                        break;
+                    case 38: //Up
+                        velocity_X  = 0;
+                        velocity_Y = -velocity;
+                        break;
+                    case 39: //Right
+                        velocity_X  = velocity;
+                        velocity_Y = 0;
+                        break;
+                    case 40: //Down
+                        velocity_X  = 0;
+                        velocity_Y = velocity;
+                        break;
+                    default:
+                        break;
+                }
+            }
 
 
         }
