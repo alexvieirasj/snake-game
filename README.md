@@ -81,11 +81,11 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 😄 Seja um dos contribuidores<br>
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) (todo: fazer arquivo de contribuição no github) e leia como contribuir.
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/alexvieirasj/snake-game/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#snake-game)<br>
+[⬆ Voltar ao topo](#Snake)<br>
 
