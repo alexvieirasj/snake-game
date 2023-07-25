@@ -9,6 +9,6 @@ Este é um projeto totalmente livre que aceita contribuições via pull requests
 3. Insira um pequeno resumo sobre o que foi adicionado.
 4. Solicite um pull request.
 
-## Recomendação (opcional)
+## Recomendação
 
-Para uma melhor semântica nos commits, recomendamos utilizar os commits mencionados neste projeto open source. Assim ficará mais fácil para avaliar seu pull request.
+Para uma melhor semântica nos commits, utilize os commits no padrão desse projeto -> [Padrões de Commit](https://github.com/iuricode/padroes-de-commits), são os mesmos usados aqui. Assim ficará mais fácil para avaliar seu pull request.
