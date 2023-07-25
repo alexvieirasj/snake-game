@@ -4,7 +4,7 @@
 
 ## 💻 Detalhes do projeto
 
-Aplicação desenvolvida no canal do YouTube [Programador Br](https://www.youtube.com/watch?v=Hua1OSXitdQ). Recriado o jogo clássico da cobrinha (snake game).
+<span>Aplicação</span> desenvolvida no canal do YouTube [Programador Br](https://www.youtube.com/watch?v=Hua1OSXitdQ). Recriado o jogo clássico da cobrinha (snake game).
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./demonstracao-aplicacao.gif"/>
@@ -87,5 +87,5 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#CapaProjeto)
+[⬆ Voltar ao topo](#Aplicação)
 
