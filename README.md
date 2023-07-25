@@ -31,6 +31,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Passagem pelo tabuleiro
 - [ ] Mensagem para inicar o jogo
 - [ ] Mensagem quando termina o jogo
+- [ ] Controle da velocidade da snake
 
 ## :package: Como utilizar o projeto
 
