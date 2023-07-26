@@ -4,19 +4,19 @@
 
 ## 💻 Detalhes do projeto
 
-<span>Aplicação</span> desenvolvida no canal do YouTube [Programador Br](https://www.youtube.com/watch?v=Hua1OSXitdQ). Recriado o jogo clássico da cobrinha (snake game).
+<span>Aplicação</span> desenvolvida no tutorial do YouTube [Snake Game com JavaScript ( Jogo da Cobrinha )- Programador Br - Ep.29](https://www.youtube.com/watch?v=Hua1OSXitdQ) no canal [Programador Br](https://www.youtube.com/@Programadorbr). Recriado o jogo clássico da cobrinha (snake game).
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./demonstracao-aplicacao.gif"/>
 </h1>
 
-## :grey_question: Sobre essa aplicação
+## 📚 Informações sobre o projeto
 
-Criada no intuito de praticar os conhecimentos de Html, Canva, Css e Javascript sem o uso de frameworks. 
+Criada no intuito de praticar os conhecimentos de HTML, CSS e JavaScript. O objetivo do jogo é fazer a cobrinha capturar o máximo possível de frutos que surgirem no tabuleiro, quanto mais ela ingerir maior ela ficará. Deve evitar de colidar com o próprio corpo, pois o jogo acabará.
 
 ## :rocket: Tecnologias utilizadas no projeto
 
-As tecnologias utilizadas no projeto foram:
+As tecnologias/ferramentas utilizadas no projeto foram:
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
