@@ -12,7 +12,7 @@
 
 ## 📚 Informações sobre o projeto
 
-Criada no intuito de praticar os conhecimentos de HTML, CSS e JavaScript. O objetivo do jogo é fazer a cobrinha capturar o máximo possível de frutos que surgirem no tabuleiro, quanto mais ela ingerir maior ela ficará. Deve evitar de colidar com o próprio corpo, pois o jogo acabará.
+Criada no intuito de praticar os conhecimentos de HTML, CSS e JavaScript. O objetivo do jogo é fazer a cobrinha capturar o máximo possível de frutos que surgirem no tabuleiro, quanto mais ela ingerir maior ela ficará. Evite colidir a cobrinha com o próprio corpo, pois o jogo acabará.
 
 ## :rocket: Tecnologias utilizadas no projeto
 
