@@ -2,9 +2,18 @@
   Snake Game 🐍
 </h1>
 
+<p align="center">
+    <img alt="Origem Projeto" src="https://img.shields.io/badge/Project-Tutorial-informational">
+    <img alt="Origem Projeto" src="https://img.shields.io/badge/YouTube-Programador BR-yellow?logo=youtube&logoColor=white">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alexvieirasj/snake-game">
+    <img alt="Difficult Level" src="https://img.shields.io/badge/level-beginner-green">
+    <img alt="Issue" src="https://img.shields.io/bitbucket/issues/alexvieirasj/snake-game?style=critical">
+    <img alt="Pull Request" src="https://img.shields.io/bitbucket/pr-raw/alexvieirasj/snake-game?style=critical">
+</p>
+
 ## 💻 Detalhes do projeto
 
-<span>Aplicação</span> desenvolvida no tutorial do YouTube [Snake Game com JavaScript ( Jogo da Cobrinha )- Programador Br - Ep.29](https://www.youtube.com/watch?v=Hua1OSXitdQ) no canal [Programador Br](https://www.youtube.com/@Programadorbr). Recriado o jogo clássico da cobrinha (snake game).
+<span>Aplicação</span> desenvolvida no tutorial do YouTube [Snake Game com JavaScript ( Jogo da Cobrinha )- Programador BR - Ep.29](https://www.youtube.com/watch?v=Hua1OSXitdQ) no canal [Programador Br](https://www.youtube.com/@Programadorbr). Recriado o jogo clássico da cobrinha (snake game).
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./demonstracao-aplicacao.gif"/>
